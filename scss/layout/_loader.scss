@@ -15,7 +15,7 @@
         letter-spacing: 5px;
         background: linear-gradient(to right, #FF79DA 0%, #9356DC  100%);
         -webkit-background-clip: text;
-        animation: loading 1.6s linear 2;
+        animation: loading 1.6s linear 5;
     }
 
 }
@@ -42,7 +42,7 @@
     opacity: 0%;
     animation-name: coucou; 
     animation-fill-mode: forwards;
-    animation-delay: 0s;
+    animation-delay: 2s;
     animation-duration: 0s;
     background-color:white;
 }

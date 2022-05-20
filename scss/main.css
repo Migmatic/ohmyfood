@@ -17,7 +17,7 @@ h2 {
   font-family: "Shrikhand", cursive;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 40px;
   font-size: 24px;
   margin-bottom: -30px;
@@ -449,8 +449,8 @@ h4 {
   letter-spacing: 5px;
   background: linear-gradient(to right, #FF79DA 0%, #9356DC 100%);
   -webkit-background-clip: text;
-  -webkit-animation: loading 1.6s linear 2;
-          animation: loading 1.6s linear 2;
+  -webkit-animation: loading 1.6s linear 5;
+          animation: loading 1.6s linear 5;
 }
 
 @-webkit-keyframes loading {
@@ -497,8 +497,8 @@ h4 {
           animation-name: coucou;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-duration: 0s;
           animation-duration: 0s;
   background-color: white;
@@ -782,6 +782,7 @@ h4 {
   color: white;
   display: flex;
   margin-bottom: 8px;
+  transition: all 0.25s ease-in-out;
 }
 .footer__menu a > i:hover + p {
   text-decoration: underline;
