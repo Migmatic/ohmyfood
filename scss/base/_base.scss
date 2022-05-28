@@ -31,8 +31,20 @@ h4 {
     font-size: 20px;
     font-weight: 350;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 40px;
+    position: relative;
+}
+
+h4::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    height:3px;
+    width:40px;
+    background:#99e2d0;
+    left:0;
+    bottom:-10px;
 }
 
 .center {
